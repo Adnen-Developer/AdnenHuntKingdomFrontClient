@@ -9,6 +9,8 @@ import { EvenementCreateComponent } from './evenement-create/evenement-create.co
 import { EvenementReadComponent } from './evenement-read/evenement-read.component';
 import { EvenementUpdateComponent } from './evenement-update/evenement-update.component';
 import { EvenementDeleteComponent } from './evenement-delete/evenement-delete.component';
+import { WelcomePageMenuComponent } from './welcome-page-menu/welcome-page-menu.component';
+import { EvenementDetailleComponent } from './evenement-detaille/evenement-detaille.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { EvenementDeleteComponent } from './evenement-delete/evenement-delete.co
     EvenementReadComponent,
     EvenementUpdateComponent,
     EvenementDeleteComponent,
+    WelcomePageMenuComponent,
+    EvenementDetailleComponent,
  
   ],
   imports: [
