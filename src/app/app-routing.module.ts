@@ -11,6 +11,7 @@ import { EvenementCreateComponent } from './evenement-create/evenement-create.co
 import { WelcomePageMenuComponent } from './welcome-page-menu/welcome-page-menu.component';
 import { EvenementDetailleComponent } from './evenement-detaille/evenement-detaille.component';
 import { EvenementUpdateComponent } from './evenement-update/evenement-update.component';
+import { EvenementReadComponent } from './evenement-read/evenement-read.component';
 const ROUTES: Routes=[
   
   /*
@@ -24,6 +25,7 @@ const ROUTES: Routes=[
   {path: 'evenement/ajouter', component: EvenementCreateComponent},
   {path: 'evenement/detaille', component: EvenementDetailleComponent},
   {path: 'evenement/modifier', component: EvenementUpdateComponent}, 
+  {path: 'evenement', component: EvenementReadComponent}
  /*
   {path:'**', component: NotFoundComponent},
 */
